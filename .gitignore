@@ -1,0 +1,8 @@
+node_modules/
+# build output
+dist/
+build/
+
+# parcel / bundler cache
+.parcel-cache/
+.cache/
