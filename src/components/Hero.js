@@ -9,7 +9,13 @@ function Hero() {
 
              <p className='my-3'>Check out the most effective exercises</p>
 
-             <button className='bg-yellow-500 border-yellow-600 border-1 text-lg rounded-sm w-50 h-10'>EXPLORE EXCERCISES</button>
+             <button className='bg-yellow-500 border-yellow-600 border-1 text-lg rounded-sm w-50 h-10' 
+             onClick={() => {
+             document.getElementById("search")?.scrollIntoView({
+              behavior: "smooth",
+              });
+               }}>EXPLORE EXCERCISES
+               </button>
         </div>
 
         <div>

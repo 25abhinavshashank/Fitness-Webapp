@@ -93,7 +93,7 @@ function Search() {
   }, []);
   
   return (
-    <div className='flex flex-col justify-center items-center gap-4 m-5 p-4'>
+    <div id='search' className='flex flex-col justify-center items-center gap-4 m-5 p-4'>
       
       {/* Search Heading */}
       <h1 className='text-2xl font-bold text-gray-800 mb-2'>
